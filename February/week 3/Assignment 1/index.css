@@ -1,0 +1,90 @@
+nav{
+    display: flex;
+}
+.left_nav{
+    display: inline-block; 
+}
+
+.right_nav{
+    display: inline-block;
+    margin-left: 20px;
+    height: 74px;
+}
+
+.ham_logo{
+    width: 80px;
+    height: 70px;
+}
+
+.main_logo{
+    width: 210px;
+}
+
+.search{
+    margin-top: 20px;
+    height: 35px;
+    width: 500px;
+    border-right-width: 0px;
+}
+
+.lens{
+    
+    width: 35px;
+    height: 32px;
+    border-left-width: 0px;
+}
+
+.mic{
+    
+    width: 40px;
+    height: 40px;
+}
+.button_lens{
+    margin-top: 20px;
+}
+
+.button_mic{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.notification{
+    margin-top: 15px;
+    margin-left: 45px;
+    float: right;
+}
+
+hr{
+    width: 92.5%;
+    float: right;
+}
+
+.content_div{
+    display: flex;
+    margin-top: 15px;
+}
+
+.content:hover{
+    cursor: pointer;
+}
+
+.ham_logo:hover{
+    cursor: pointer;
+}
+
+.main_logo:hover{
+    cursor: pointer;
+}
+
+.notification:hover{
+    cursor: pointer;
+}
+
+.button_lens:hover{
+    cursor: pointer;
+}
+
+.button_mic:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    color: aqua;
+    text-decoration: underline;
+}
+
+.image_body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.flex_image{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,1 @@
+Assignment 1: -> Show the text as per the colored google logo. (Don't care about the custom font) -> I want the colors to be specific for each of the letter. -> Refer to attached image. (assignment1.html)

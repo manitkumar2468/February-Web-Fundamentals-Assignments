@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="">
+
+            <h1 align="center" >Application Form</h1>
+            <label>Name*</label> 
+            <input type="text" placeholder="Enter full name" required name="name" pattern="[a-zA-Z]{5,20}"/> <br /><br />
+            <label>Email*</label> 
+            <input type="email" placeholder="Enter email" required name="email"/> <br /><br />
+            <label>Select Course*</label>
+            <select name="course" required>
+                <option value="Null" disabled selected>Select Course</option>
+                <option value="fswd">Full stack web devlopmen</option>
+                <option value="awd">Advance web devlopment</option>
+            </select> <br /><br />
+
+            <label>Phone*</label>
+            <input type="text" placeholder="Enter mobile number" required name="mno" pattern="[0-9]{10}"/> <br /><br />
+            
+            <label>Highest Degree*</label>
+            <select name="degree" required>
+                <option value="Null" disabled selected>Select highest degree</option>
+                <option value="btechcs">B.E OR Btech CS/IT</option>
+                <option value="btecho">B.E OR Btech Other</option>
+                <option value="mtechcs">M.S OR Mtech CS/IT</option>
+                <option value="mtecho">M.S OR Mtech Other</option>
+                <option value="bca">B.C.A</option>
+                <option value="mca">M.C.A</option>
+                <option value="other">Other</option>
+
+            </select> <br /><br />
+
+            <label>Year of Completion*</label>
+            <select name="yc" required>
+                <option value="Null" disabled selected>Select year of completion</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+            </select> <br /><br />
+
+            <label>Programming Skills*</label>
+            <select name="ps" required>
+                <option value="Null" disabled selected>Select Programming Skill level</option>
+                <option value="0">No coding</option>
+                <option value="1">Basic coding skill</option>
+                <option value="2">Intermediate coding skill</option>
+                <option value="3">Good coding skill</option>
+            </select> <br /><br />
+            <input type="checkbox" name="tac" required>By signing up, you agree to the Terms and Conditions of Geekster (QuantumBit technologies Pvt. Ltd)*
+            </input>
+            <br /><br />
+            <input type="submit"/>
+
+        </form>
+    </body>
+</html>

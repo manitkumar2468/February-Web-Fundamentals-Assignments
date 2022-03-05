@@ -1,0 +1,49 @@
+body{
+    background-color: aqua;
+}
+.menudropdown1{
+    width: 85%;
+    height: 100px;
+    margin: 0px auto;
+}
+.menudropdown1 ul{
+    padding: 0px;
+    
+}
+.menudropdown1 ul li{
+    float: left;
+    list-style: none;
+    width: 200px;
+    line-height: 40px;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    background-color: lightsalmon;
+    color: black;
+}
+.menudropdown1 ul li ul{
+    display: none;
+
+}
+.menudropdown1 ul li:hover >ul{
+    display: block;
+    
+}
+.menudropdown1 ul li:hover{
+    background-color:green;
+    
+}
+.menudropdown1 ul li ul li{
+    position: relative;
+    background-color: rgb(247, 230, 4);
+}
+.menudropdown1 ul li ul li ul{
+    position:absolute;
+    left:200px;
+    top: 0px;
+
+}
+
+.menudropdown1 ul li ul li ul li{
+    background-color: rgb(245, 183, 14);
+}
