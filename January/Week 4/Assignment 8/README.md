@@ -1,0 +1,1 @@
+program to count Vowel from a given string. String is enter by user.

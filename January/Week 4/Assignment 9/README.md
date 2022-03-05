@@ -1,0 +1,1 @@
+Program to check enter number is prime or not. Number is enter by user.
